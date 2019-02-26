@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:label="@string/app_name"
+	android:id="@+id/tableLayout1">
+	<TableRow
+		android:id="@+id/tableRow1">
+		<Button
+			android:id="@+id/remoteHelpButton"
+			android:layout_width="381.0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/remoteHelp" />
+	</TableRow>
+	<TableRow
+		android:id="@+id/tableRow1">
+		<Button
+			android:id="@+id/openCameraButton"
+			android:layout_width="381.0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/openCamera" />
+	</TableRow>
+	<TableRow
+		android:id="@+id/tableRow2">
+		<Button
+			android:id="@+id/inspectEquipmentButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/inspectEquipment" />
+	</TableRow>
+	<TableRow
+		android:id="@+id/tableRow3">
+		<Button
+			android:id="@+id/auditEquipmentButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/auditEquipment" />
+	</TableRow>
+</TableLayout>

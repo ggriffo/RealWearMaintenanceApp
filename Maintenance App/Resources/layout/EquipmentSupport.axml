@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:label="@string/app_name">
+	<TextView
+		android:id="@+id/equipmentIDText"
+		android:layout_width="381.0dp"
+		android:layout_height="50dp"
+		android:textSize="30dp"/>
+	<Button
+		android:id="@+id/openPdfInstructionsButton"
+		android:layout_width="381.0dp"
+		android:layout_height="45.0dp"
+		android:text="@string/pdfInstructions" />
+	<Button
+		android:id="@+id/openVideoInstructionsButton"
+		android:layout_width="381.0dp"
+		android:layout_height="45.0dp"
+		android:text="@string/videoInstructions" />
+	<Button
+		android:id="@+id/realTimeData"
+		android:layout_width="381.0dp"
+		android:layout_height="45.0dp"
+		android:text="@string/realtimeData" />
+</LinearLayout>

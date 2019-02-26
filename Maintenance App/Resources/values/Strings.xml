@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OlinTube</string>
+    <string name="action_settings">Settings</string>
+    <string name="openCamera">OPEN CAMERA</string>
+    <string name="inspectEquipment">INSPECT EQUIPMENT</string>
+    <string name="auditEquipment">RECORD VIDEO</string>
+    <string name="remoteHelp">REMOTE HELP</string>
+    <string name="pdfInstructions">OPEN PDF INSTRUCTIONS</string>
+    <string name="videoInstructions">OPEN VIDEO INSTRUCTIONS</string>
+    <string name="realtimeData">SHOW REALTIME DATA</string>
+    <!--
+      Nova tela mostrar uma imagem simples do IP.21
+      Ficar variando um valor no topo da imagem (entre 80.0 e 82.0) variar casas decimais      
+    -->
+</resources>
